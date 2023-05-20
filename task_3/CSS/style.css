@@ -1,0 +1,383 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Raleway', sans-serif; */
+
+}
+
+.home {
+    width: 100%;
+    background-color: blue;
+    background-image: url("../assets/drew-coffman-1872.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+    height: 800px;
+}
+
+.logo img {
+    margin-top: 20px;
+    height: 48px;
+    /* size: 20px; */
+    /* margin-left: 50px; */
+
+
+}
+
+.logo {
+    width: 25%;
+    float: left;
+    text-align: center;
+    /*  */
+}
+
+.Nav ul {
+    /* margin-top: 30px; */
+    list-style-type: none;
+    color: white;
+    /* margin-left: -50px; */
+
+}
+
+.Nav li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.Nav {
+    float: right;
+    width: 54%;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.clr {
+    clear: both;
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 15%;
+
+}
+
+.titlee {
+    font-size: 80px;
+    margin-top: -10px;
+
+}
+
+.wel {
+    font-size: 22px;
+    margin-top: -30px;
+
+    /* text-align: center; */
+
+}
+
+.button {
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 10%;
+
+
+}
+
+.button .button1 {
+    background-color: burlywood;
+    border: 0px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.button .button2 {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.fadi {
+    width: 45px;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 3px solid white;
+    margin: auto;
+}
+
+.space {
+    margin: 7%;
+}
+
+.sec1 {
+    width: 90%;
+    margin: auto;
+}
+
+.sec11 {
+    width: 49%;
+    float: left;
+    /* margin: auto; */
+    /* display: inline-block; */
+
+}
+
+.sec11 img {
+    width: 100%;
+}
+
+.sec12 {
+    width: 45%;
+    float: right;
+    color: grey;
+    font-weight: bold;
+
+    /* margin-left: 20px; */
+    /* padding-left: 20px; */
+}
+
+.sec12 h1 {
+    color: black;
+    font-weight: 100;
+}
+
+.sec12 p {
+    color: gray;
+    text-align: left;
+}
+
+.list1 {
+    color: grey;
+    margin-top: 50px;
+    text-align: left;
+    /* list-style-type: none; */
+}
+
+.list1 ul {
+    /* margin-top: 30px; */
+    list-style-type: none;
+
+    /* margin-left: -50px; */
+
+}
+
+.list1 li {
+    display: block;
+    /* padding-left: 30px; */
+    margin-top: 30px;
+}
+
+.se2m {
+    width: 100%;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+.sec2 {
+    width: 90%;
+    margin: auto;
+}
+
+.sec22 {
+    width: 45%;
+    float: right;
+    color: grey;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /* margin-left: 20px; */
+    /* padding-left: 20px; */
+}
+
+
+.sec21 {
+    width: 49%;
+    float: left;
+    color: grey;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    /* margin: auto; */
+    /* display: inline-block; */
+}
+
+.sec21 h1 {
+    color: black;
+}
+
+.sec21 p {
+    color: gray;
+    text-align: left;
+    font-size: 20px;
+}
+
+.upper {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.sec22 img {
+    width: 100%;
+}
+
+.sec3 {
+    margin-top: 5%;
+    width: 95%;
+    margin: auto;
+}
+
+.sec3 h1,
+p {
+    text-align: center;
+}
+
+.item p {
+    color: gray;
+}
+
+.item {
+    background-color: transparent;
+    text-align: center;
+    width: 31%;
+    display: inline-block;
+    margin-left: 20px;
+    /* float: left; */
+    padding-bottom: 50px;
+}
+
+.item img {
+    width: 100%;
+}
+
+/* /////////////// */
+.list2 {
+    color: grey;
+    margin-top: 50px;
+    text-align: left;
+    /* list-style-type: none; */
+}
+
+.list2 ul {
+    /* margin-top: 30px; */
+    list-style-type: none;
+
+    /* margin-left: -50px; */
+
+}
+
+.list2 li {
+    display: block;
+    /* padding-left: 30px; */
+    margin-top: 15px;
+}
+
+.sec4m {
+    width: 100%;
+    background-color: whitesmoke;
+    /* margin: auto; */
+    /* margin-bottom: 40px; */
+
+}
+
+.sec4 {
+    width: 90%;
+    margin: auto;
+}
+
+.sec42 {
+    width: 45%;
+    float: right;
+    color: grey;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /* margin-left: 20px; */
+    /* padding-left: 20px; */
+}
+
+
+.sec41 {
+    width: 49%;
+    float: left;
+    color: grey;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    /* margin: auto; */
+    /* display: inline-block; */
+}
+
+.sec41 h1 {
+    color: black;
+    text-align: left;
+}
+
+.sec42 img {
+    width: 100%;
+    text-align: left;
+}
+
+.sec41 p {
+    text-align: left;
+}
+
+.sec5 {
+    background-color: rgb(64, 61, 56);
+    width: 100%;
+
+    color: wheat;
+    text-align: center;
+}
+
+.head1 {
+    padding-top: 30px;
+    /* align-items: center; */
+    padding-bottom: 20px;
+}
+
+.item2 {
+    margin-top: -22px;
+    /* background-color:transparent; */
+    /* text-align: center; */
+    /* margin-top: 30px */
+    width: 25%;
+    /* display: inline-block; */
+    /* color: wheat; */
+    /* margin-left: 0px; */
+    float: left;
+    background-color: rgb(64, 61, 56);
+    padding-bottom: 50px;
+
+}
+
+.item2 li {
+    list-style-type: none;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.foot {
+    padding-top: 30px;
+    background-color: rgb(53, 51, 48);
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.item3 {
+    width: 50%;
+    display: inline;
+    margin: auto;
+}
