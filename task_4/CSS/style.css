@@ -1,0 +1,755 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* .parent{
+   background-color: brown;
+    
+}
+.product {
+    text-align: center;
+    padding: 10px;
+    width: 25%;
+    float: left;
+}
+.product img{
+    width: 100%;
+}
+.clr{
+    clear: both;
+}
+.product-inner{
+    background-color: brown;
+}
+.container{
+    width: 95%;
+    margin: auto;
+} 
+h1 , p{
+    text-align: center;
+}
+.test2{
+    width: 400px;
+    
+    height: 400px;
+    background-color: tomato;
+    position: relative;
+}
+
+.test{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    position: relative;
+    top: 50px;
+    right: 60px;
+}
+
+
+.One{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.Two{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 10;
+}
+.Three{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+} */
+
+.nav {
+    width: 100%;
+    background-image: url(../assets/slider-01.jpg);
+    height: 637px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.logo {
+    float: left;
+    width: 50%;
+    padding-left: 110px;
+    font-size: 30px;
+    margin-top: -20px;
+    font-weight: bold;
+    color: crimson;
+    z-index: 10;
+}
+
+.menu {
+    float: left;
+    width: 45%;
+    z-index: 1000;
+}
+
+.blur {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+
+    margin: 0;
+    padding-left: 18px;
+    padding-top: 20px;
+    font-size: large;
+}
+
+li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+li a:hover {
+    color: crimson;
+}
+
+.clr {
+    clear: both;
+}
+
+.content {
+    background-color: transparent;
+    text-align: center;
+    padding: 150px;
+}
+
+.content p {
+    color: white;
+    font-size: 25px;
+}
+
+.content h1 {
+    color: crimson;
+    font-size: 60px;
+    margin: 15px;
+}
+
+.content h3 {
+    color: white;
+}
+
+.About {
+    width: 90%;
+    border-top: 100px;
+
+    padding-top: 100px;
+    margin: auto;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    overflow: hidden;
+
+}
+
+.photo {
+    width: 45%;
+    float: left;
+
+}
+
+.photo img {
+    width: 100%;
+}
+
+.aboutScribt {
+    width: 50%;
+    float: left;
+    margin-top: -20px;
+}
+
+.inner-photo {
+    width: 80%;
+    border: gray solid 8px;
+    border-radius: 10px;
+    /* position: relative; */
+}
+
+.inner2-photo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    /* z-index: 1; */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.inner3-photo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* opacity: 0; */
+    transition: all 1s;
+    border-radius: 10px;
+
+}
+
+.inner2-photo:hover .inner3-photo {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.icons {
+    text-align: left;
+    padding-top: 200px;
+    color: white;
+}
+
+.icons ul {
+    padding-left: 90px;
+}
+
+.h1-brown2 {
+    color: brown;
+    display: inline-block;
+    font-weight: 30px;
+}
+
+.h1-black {
+    font-weight: 30px;
+    display: inline-block;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.divider {
+    border-bottom: 2px dotted grey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inline-h1 {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.inline-p {
+    display: inline-block;
+    margin-top: 5px;
+    color: rgb(52, 50, 50);
+}
+
+.left-One {
+    width: 50%;
+    float: left;
+}
+
+.right-One {
+    width: 50%;
+    float: left;
+}
+
+.personal-inf {
+    width: 100%;
+}
+
+.inline-p a {
+    color: gray;
+    text-decoration: none;
+}
+
+.butons button {
+    margin-right: 20px;
+}
+
+.btn-One {
+    border: 0px;
+    background-color: rgb(255, 48, 91);
+    padding: 16px 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-Two {
+    border: 0px;
+    background-color: rgb(255, 48, 91);
+    padding: 16px 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* service section  */
+
+
+.section {
+    width: 100%;
+    background-color: rgba(241, 241, 241, 1);
+    margin: auto;
+    text-align: center;
+}
+
+.section-inner {
+    width: 85%;
+    /* background-color: blue; */
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.section .h1-f h1 {
+    padding-top: 100px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.line-divider1 {
+
+    color: crimson;
+    margin-top: -12px;
+
+}
+
+.line-divider3 {
+    color: crimson;
+    margin-top: -12px;
+    padding-bottom: 50px;
+}
+
+.service-item {
+    padding-top: 30px;
+    width: 25%;
+    background-color: transparent;
+    padding-bottom: 20px;
+
+}
+
+.service-item {
+    font-size: 18px;
+    transition: all 1s;
+    float: left;
+}
+
+.service-item p {
+    color: gray;
+}
+
+.service-item:hover {
+    background-color: white;
+    transition: all 1s;
+}
+
+.icon-zoom {
+    transition: transform 1s;
+    color: red;
+}
+
+.service-item:hover .icon-zoom {
+
+    transform: scale(1.5);
+}
+
+.Portfolio {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.Portfolio .h1-f h1 {
+    padding-top: 100px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.items {
+    width: 85%;
+    margin: auto;
+
+}
+
+.item {
+    width: 33.3%;
+    float: left;
+    margin: auto;
+}
+
+.item-inner {
+
+    position: relative;
+    width: 92%;
+
+    margin: auto;
+    margin-bottom: 8%;
+
+
+}
+
+.item img {
+    width: 100%;
+}
+
+.blur-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.sm-icon {
+    padding-left: 90%;
+    padding-top: 68%;
+    color: crimson;
+    /* transform: scale(1.5); */
+}
+
+.item .item-inner:hover .blur-img {
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+}
+
+.list-photo {
+    margin-top: -20px;
+    padding-bottom: 50px;
+}
+
+.list-photo ul li a {
+    color: black;
+}
+
+.list-photo ul li:hover a {
+    color: crimson;
+}
+
+
+
+/* p two */
+
+.Portfolio-Two {
+    padding-top: 100px;
+    width: 100%;
+    background-color: rgba(241, 241, 241, 1);
+    padding-bottom: 70px;
+}
+
+.Portfolio-inner {
+    width: 90%;
+    margin: auto;
+}
+
+.Portfolio-item {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.sm-icon2 {
+    color: crimson;
+    transform: scale(1.5);
+}
+
+.Portfolio-Two h1 {
+    font-size: 20px;
+}
+
+.Portfolio-Two p {
+    font-size: 18px;
+    color: rgb(55, 53, 53);
+}
+
+
+.Testimonial {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 60px;
+
+}
+
+.Testimonial .h1-f h1 {
+    padding-top: 70px;
+    /* margin-bottom: 10px; */
+    font-size: 40px;
+}
+
+.feed {
+
+    width: 50%;
+    margin: auto;
+    background-color: rgba(241, 241, 241, 1);
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.left-top {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: -150px;
+    left: -50px;
+    background-color: crimson;
+    transform: skewy(-45deg);
+    z-index: 0;
+}
+
+.feed h1 {
+    padding-top: 20px;
+    color: black;
+    text-align: left;
+    padding-left: 170px;
+}
+
+.feed p {
+    color: black;
+    padding-left: 170px;
+    text-align: left;
+}
+
+.prof-feed {
+
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+
+.prof-feed img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.Location {
+    color: rgb(44, 42, 42);
+    text-align: left;
+    padding-left: 170px;
+}
+
+.star {
+    text-align: left;
+    padding-left: 170px;
+    padding-bottom: 30px;
+}
+
+.slider {
+    width: 20px;
+    height: 10px;
+    background-color: crimson;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* .slider2{
+    width: 20px;
+    height: 10px;
+    background-color: crimson;
+    margin: auto;
+    border-radius: 10px;
+
+} */
+
+
+.Blog {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 100px;
+    background-color: rgba(241, 241, 241, 1);
+}
+
+.Blog .h1-f h1 {
+    padding-top: 100px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.parent-Blog {
+    width: 89%;
+    background-color: transparent;
+    margin: auto;
+}
+
+.blog-item {
+    width: 33.3%;
+    float: left;
+    padding: 0px 20px;
+
+
+}
+
+.blog-inner {
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.blog-inner p {
+    text-align: left;
+    padding-left: 20px;
+    color: rgb(65, 64, 64);
+}
+
+.blog-inner h1 {
+    text-align: left;
+    padding-left: 20px;
+    transition: color 1s;
+}
+
+.blog-inner img {
+    width: 100%;
+
+}
+
+.blog-inner h1:hover {
+    color: crimson;
+}
+
+
+/* Contact Us section */
+
+
+.Contact {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.Contact .h1-f h1 {
+    padding-top: 80px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.form {
+    width: 58%;
+    margin: auto;
+}
+
+.input-name,
+.input-email {
+    width: 350px;
+    margin-right: 30px;
+    padding-left: 10px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: crimson;
+}
+
+.input-subject {
+    width: 730px;
+    margin-right: 30px;
+    padding-left: 10px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: crimson;
+}
+
+.input-area {
+    width: 730px;
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border-color: crimson;
+}
+
+.btn-submit {
+    background-color: crimson;
+    border: 0;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    float: left;
+}
+
+/* 
+.ic{
+    margin: auto;
+    padding-top: 30px 0px;
+} */
+
+.footer {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgb(51, 51, 51);
+}
+
+.footer p {
+    font-size: 20px;
+    color: white;
+}
+
+@media screen and (max-width:979px) and (min-width:768px) {}
+
+@media screen and (max-width:979px) and (min-width:500px) {
+    .aboutScribt {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .service-item {
+        width: 100%;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .blog-item {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width:497px) {
+    .service-item {
+        width: 100%;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .blog-item {
+        width: 100%;
+
+    }
+
+
+}
