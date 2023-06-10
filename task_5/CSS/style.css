@@ -400,7 +400,7 @@ body {
 .GALLERY-item:hover .img-hover {
     top: 0;
     left: 0;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .h1-h {
