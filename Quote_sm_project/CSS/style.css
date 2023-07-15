@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+
+}
+.btnn{
+    width: 250px;
+    height: 90px;
+    background-color: blue;
+    
+}
+.btnn:hover{
+    
+    background-color: green;
+    
+}
